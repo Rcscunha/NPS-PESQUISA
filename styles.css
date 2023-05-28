@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #login-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #login-container input[type="text"],
+  #login-container input[type="password"],
+  #login-container button {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #signup-container,
+  #no-account-container {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #signup-container h2,
+  #no-account-container p {
+    text-align: center;
+  }
+  
+  #signup-container input[type="text"],
+  #signup-container input[type="password"],
+  #signup-container button,
+  #no-account-container input[type="text"],
+  #no-account-container input[type="password"],
+  #no-account-container button {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  #survey-container,
+  #results-container {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  #survey-container h2,
+  #results-container h2 {
+    text-align: center;
+  }
+  
+  #survey-container p {
+    font-weight: bold;
+  }
+  
+  #survey-container ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  #survey-container li {
+    margin-bottom: 10px;
+  }
+  
+  #submit-btn {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #chart-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+          

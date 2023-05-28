@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pesquisa de NPS</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="login-container">
+    <h1>Login</h1>
+    <input type="text" id="username" placeholder="Usuário">
+    <input type="password" id="password" placeholder="Senha">
+    <button id="login-btn">Entrar</button>
+  </div>
+
+  <div id="signup-container">
+    <h1>Criar Conta</h1>
+    <input type="text" id="signup-username" placeholder="Usuário">
+    <input type="password" id="signup-password" placeholder="Senha">
+    <button id="signup-btn">Criar conta</button>
+  </div>
+
+  <div id="no-account-container">
+    <h1>Não possui uma conta?</h1>
+    <input type="text" id="no-account-username" placeholder="Usuário">
+    <input type="password" id="no-account-password" placeholder="Senha">
+    <button id="no-account-btn">Entrar</button>
+  </div>
+
+  <div id="survey-container">
+    <h2>Pesquisa de NPS</h2>
+    <p>Por favor, responda às seguintes perguntas:</p>
+    <ol>
+      <li>
+        <label for="q1">1. Qual é a probabilidade de você recomendar nosso produto/serviço para um amigo ou colega?</label>
+        <input type="number" id="q1" min="0" max="10">
+      </li>
+      <li>
+        <label for="q2">2. Qual é a probabilidade de você voltar a fazer negócios conosco?</label>
+        <input type="number" id="q2" min="0" max="10">
+      </li>
+      <!-- Adicione as outras perguntas aqui -->
+    </ol>
+    <button id="submit-btn">Enviar</button>
+  </div>
+
+  <div id="results-container">
+    <h2>Resultados da pesquisa de NPS</h2>
+    <div id="chart-container">
+      <canvas id="nps-chart"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
